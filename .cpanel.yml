@@ -1,7 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH="/home/TheAmazinRaven/raedickerson.dev"
-    - export GIT_DEPLOY_REPO="https://github.com/TheAmazinRaven/RaeFolioNew"
-    - /bin/bash /scripts/update-exim.sh
-    - /usr/local/cpanel/scripts/gitdeploy $DEPLOYPATH $GIT_DEPLOY_REPO
+    - cp -r /home/theamazinraven/repositories/RaeFolioNew/* /home/TheAmazinRaven/raedickerson.dev/
