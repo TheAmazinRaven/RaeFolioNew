@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -r /home/theamazinraven/repositories/RaeFolioNew/* /home/TheAmazinRaven/raedickerson.dev/
